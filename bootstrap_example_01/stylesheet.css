@@ -1,0 +1,10 @@
+﻿body {
+    margin-top: 40px;
+}
+
+/*created a style to overide a button to have no rounded courners*/ 
+
+.gr-rigid {
+    border-radius: 0px;
+    background-color: gray;
+}

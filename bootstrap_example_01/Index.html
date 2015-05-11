@@ -1,0 +1,250 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+
+    <!--This is the Nuget way of doing things:-->
+    <!--Third party libraries should load first 99% of the time-->
+    <!--<link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="stylesheet.css" rel="stylesheet" />
+    end of the Nuget way of doing this-->
+    <!--This is the CDN way of doing things:-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <!--end of the CDN way of doing this-->-->
+
+    <link href="Content/slate-theme.css" rel="stylesheet" />
+    <link href="stylesheet.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <div id="divModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">
+                        Welcome to your first modal!
+                    </h4>
+                </div>  <!--Header-->
+                <div class="modal-body">
+                    This your modal!
+                </div>  <!--Body-->
+                <div class="modal=footer">
+                    <button class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>  <!--Footer-->
+            </div>  <!--modal content wrapper-->
+        </div>  <!--modal dialog wraper-->
+    </div>  <!--outer modal wrapper-->
+
+    <div id="divNavBar">
+        <!--begin navigation menu-->
+        <div id="divMenu" class="navbar navbar-default navbar-fixed-top col-sm-12">
+            <div class="navbar-header">
+                <button class="btn btn-success navbar-toggle"
+                        data-toggle="collapse"
+                        data-target=".navbar-collapse">
+                    <span class="glyphicon glyphicon-list"> </span>
+                </button>
+                <div id="divLogo class=col-md-4">
+                    <h2>Giovanni Rosati</h2>
+                </div>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav">
+                        <a href="#divSectionOne">Technology Stack</a>
+                    </li>
+                    <li class="nav">
+                        <a href="#divSectionTwo">Professional Background</a>
+                    </li>
+                    <li class="nav">
+                        <a href="#divSectionThree">Projects</a>
+                    </li>
+                    <li class="nav">
+                        <a href="#divSectionFour">Blog</a>
+                    </li>
+                    <li class="nav">
+                        <a href="#divSectionFive">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div> <!--end navigation menu-->
+
+
+
+    <div id=divSectionOne class="container">    <!--start section one-->
+        <div class="col-md-8">
+            <h2 style="text-align: center"></h2>
+           Full stack .NET and JavaScript developer with extensive entreprenurial and management experience.
+        </div>
+
+        <div>
+            <div class="row">
+                <div class="col-md-3 col-sm-offset-0">
+                    <div id="divCarousel" class="carousel slide">
+                        <!--outer carousel wrapper-->
+                        <!--carousel navigation-->
+                        <!--<ol class="carousel-indicators">
+                            <li data-target="#divCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#divCarousel" data-slide-to="1"></li>
+                            <li data-target="#divCarousel" data-slide-to="2"></li>
+                            <li data-target="#divCarousel" data-slide-to="3"></li>
+                            <li data-target="#divCarousel" data-slide-to="4"></li>
+                            <li data-target="#divCarousel" data-slide-to="5"></li>
+                            <li data-target="#divCarousel" data-slide-to="6"></li>
+                        </ol>-->
+                        <!--resrved for the content to display-->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="Content/dot_net.jpg" />
+                            </div>
+                            <div class="item">
+                                <img src="Content/angular_js.jpg" />
+                            </div>
+                            <div class="item">
+                                <img src="Content/agile-icon.jpg" />
+                            </div>
+                            <div class="item">
+                                <img src="Content/visual_studio.jpg" />
+                            </div>
+                            <div class="item">
+                                <img src="Content/HTML_5.jpg" />
+                            </div>
+                            <div class="item">
+                                <img src="Content/jquery.jpg" />
+                            </div>
+                            <div class="item">
+                                <img src="Content/C_sharp.jpg" />
+                            </div>
+                        </div>
+                        <!--<span href="divCarousel" class="carousel-control left" data-slide="prev"></span>
+                        <span class="icon-prev"></span>
+                        <span href="divCarousel" class="carousel-control right" data-slide="next"></span>
+                        <span class="icon-next"></span>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id=divSectionTwo class ="col-md-3 col-md-offset-1">   <!--start section two-->
+            <h2>
+                This div is using:
+                class 'col-md-3
+                col-md-offset-1'
+            </h2>
+
+            Fusce tincidunt est tellus, quis porttitor felis iaculis id. Vivamus gravida quis tortor nec ultricies.
+            Vestibulum eros metus, malesuada fermentum mattis et, pellentesque sit amet ex. Sed imperdiet dignissim egestas.
+            Vestibulum lacinia euismod lorem, vitae aliquam felis tincidunt sed. In hac habitasse platea dictumst.
+            Vestibulum congue nunc ut luctus porttitor. Suspendisse potenti. Donec gravida hendrerit mauris quis pellentesque.
+            Duis vulputate accumsan pretium. Mauris eget lectus elit
+        </div>
+
+        <div id=divSectionThree class="container col-md-12">
+            <div class="table-responsive">
+                <table class="table table-striped table-hover table-condensed">
+                    <thead>
+                        <tr>
+                            <td>Column 1</td>
+                            <td>Column 2</td>
+                            <td>Column 3</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> data set 1</td>
+                            <td> data set 2</td>
+                            <td> data set 3</td>
+                        </tr>
+                        <tr>
+                            <td> long data set 1    lsdfkjdslfkjsdlfjsdlfkjsdl; f </td>
+                            <td> long data set 2    dasbfbgfbgfgbfbgbbgdsfgbfdbfta</td>
+                            <td> long data set 3     datsbfdsgbdsgbsdfgbfgbfgbfsdbga set 3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div id="divSection_02" class="container">
+        <h2>This div is using class 'container' and the images have class 'col-xs-6 img-responsive'</h2>
+        <img src="http://www.abflags.com/_flags/flags-of-the-world/Italy%20flag/Italy%20flag-XXL-anim.gif" class="col-xs-6 img-responsive">
+        <img src="http://www.abflags.com/_flags/flags-of-the-world/Italy%20flag/Italy%20flag-XXL-anim.gif" class="col-xs-6 img-responsive">
+        <span></span>
+
+    </div>
+
+    <div id="divSection_03" class="container-fluid">
+        <h2>This div is using class 'container-fluid' and the images have class 'col-md-6 and img-responsive'</h2>
+        <img src="http://www.abflags.com/_flags/flags-of-the-world/Italy%20flag/Italy%20flag-XXL-anim.gif" class="col-md-6 img-responsive">
+        <img src="http://www.abflags.com/_flags/flags-of-the-world/Italy%20flag/Italy%20flag-XXL-anim.gif" class="col-md-6 img-responsive">
+        <span></span>
+
+    </div>
+
+    <div id="divSection_04" class="row">
+        <h2>This div is using class 'row' and the images have class 'col-md-6 img-thumbnail'</h2>
+        <img src="http://www.abflags.com/_flags/flags-of-the-world/Italy%20flag/Italy%20flag-XXL-anim.gif" class="col-md-6 img-thumbnail">
+        <img src="http://www.abflags.com/_flags/flags-of-the-world/Italy%20flag/Italy%20flag-XXL-anim.gif" class="col-md-6 img-thumbnail">
+        <span></span>
+
+    </div>
+
+    <div class="container">
+        <form class="col-xs-6 col-xs-offset-3">
+            <div class="form-group">
+                <label>Email</label>
+                <input class="form-control" placeholder="email">
+            </div>
+            <div class="form-group">
+                <label>Options</label>
+                <select>
+                    <option>Option 1</option>
+                    <option>Option 2</option>
+                    <option>Option 3</option>
+                    <option>Option 4</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="button" class="btn btn-info gr-rigid" value="bootstrap" onclick="$('#divModal' ).modal('show')" />
+            </div>
+        </form>
+
+    </div>
+
+    <footer id="footer">
+        <br />
+        &copy; Copyright 2015 Rosati Development
+        <br />
+    </footer>
+
+    <!--This is the Nuget way of doing things-->
+    <!--Industry standard to load JavaScript last in the body-->
+    <!--<script src="Scripts/jquery-2.1.3.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    end of the Nuget way of doing this-->
+    <!--This is the CDN way of doing things-->
+    <script src="Scripts/jquery-2.1.3.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <!--end of the CDN way of doing this-->-->
+
+    <script type="text/javascript">
+        $("#divCarousel").carousel({ interval: 2000 });
+    </script>
+
+</body>
+</html>

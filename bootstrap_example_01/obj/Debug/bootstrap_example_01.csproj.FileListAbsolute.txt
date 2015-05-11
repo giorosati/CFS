@@ -1,0 +1,6 @@
+C:\Users\Giovanni\Dropbox\AA-Coding from Scratch\Visual Studio Projects\bootstrap_01\bootstrap_example_01\bin\bootstrap_example_01.dll.config
+C:\Users\Giovanni\Dropbox\AA-Coding from Scratch\Visual Studio Projects\bootstrap_01\bootstrap_example_01\bin\bootstrap_example_01.dll
+C:\Users\Giovanni\Dropbox\AA-Coding from Scratch\Visual Studio Projects\bootstrap_01\bootstrap_example_01\bin\bootstrap_example_01.pdb
+C:\Users\Giovanni\Dropbox\AA-Coding from Scratch\Visual Studio Projects\bootstrap_01\bootstrap_example_01\obj\Debug\bootstrap_example_01.csprojResolveAssemblyReference.cache
+C:\Users\Giovanni\Dropbox\AA-Coding from Scratch\Visual Studio Projects\bootstrap_01\bootstrap_example_01\obj\Debug\bootstrap_example_01.dll
+C:\Users\Giovanni\Dropbox\AA-Coding from Scratch\Visual Studio Projects\bootstrap_01\bootstrap_example_01\obj\Debug\bootstrap_example_01.pdb

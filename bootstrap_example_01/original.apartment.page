@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Apartment for Coders</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <!--99% content should be displayed in the body--> 
+   
+    <div id="divNavBar">
+        <!--begin navigation menu-->
+    <h1 style="color: black">Welcome to Developer's Apartments!</h1>
+        <ul>
+            <li>
+                <a href="#divSectionOne">Amenities</a>
+            </li>
+            <liFloor Plans
+                <a href="#divSectionTwo">Floor Plans</a>
+            </li>
+            <li>
+                <a href="#divSectionThree">FAQ</a>
+            </li>
+        </ul>
+    </div> <!--end navigation menu-->
+
+    <div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <img src=" http://www.homeview3d.com/wp-content/uploads/2011/05/Architectural-Apartment-Design-by-Lundgaard-and-Tranberg-3.jpg">
+        <h2 style="text-align: center">
+            We are your best choice for a placet to live while attending your software development bootcamp - check us out!
+        </h2>
+    </div>
+
+    <div id="divSectionOne">
+        <!--begin section one-->
+        <article class="cb-center">
+            <section>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac leo sit amet quam semper porttitor. Duis ultricies velit id urna volutpat, nec congue quam vestibulum.
+                Vestibulum et tempor nisi. Sed sollicitudin, augue id fermentum congue, quam leo imperdiet lectus, quis elementum ipsum tortor semper nulla. Nam at enim nulla. Donec efficitur felis nisl,
+                quis accumsan arcu luctus faucibus. Curabitur ullamcorper vehicula sollicitudin. Donec congue suscipit ex, nec suscipit nibh sodales in. Donec egestas ante sed malesuada lacinia. Class aptent taciti
+                sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec venenatis magna non lectus ornare, vel vehicula ipsum bibendum. In efficitur gravida feugiat. Cras nec
+                est et arcu ullamcorper maximus.
+            </section>
+        </article>
+    </div> <!--end section one-->
+
+    <div id="divSectionTwo">
+        <!--begin section two-->
+        <div class="cb-center">
+            <article class="cb-inline-block">
+                <section>
+                    uris et urna eu urna sollicitudin cursus in at metus. In hac habitasse platea dictumst. Morbi finibus nunc viverra tristique vestibulum.
+                    Pellentesque volutpat tempor mi, in congue felis ullamcorper in. Vivamus et ligula at ipsum vehicula tincidunt. Duis pellentesque sit amet
+                    neque eu fringilla. Fusce tincidunt faucibus elementum. Donec at orci in ipsum elementum consectetur. Morbi non leo non nisl dictum vestibulum
+                    quis nec est. Curabitur pharetra ante a magna viverra pellentesque. Duis pellentesque blandit diam, eu porttitor orci varius sit amet. Sed
+                    efficitur ex vitae libero ullamcorper porttitor. Pellentesque sodales turpis arcu, sit amet semper augue rhoncus eget. Praesent nec est lobortis,
+                    volutpat mi a, tincidunt justo. Donec ligula magna, lobortis quis sodales ut, fermentum sit amet libero.
+                </section>
+            </article>
+            <article class="cb-inline-block cb-right">
+                <section>
+                    Morbi mollis sapien tortor, vitae ultrices ante tempus et. Nunc elementum felis nisi,
+                    vitae lacinia purus egestas non. Maecenas eleifend justo non cursus eleifend. Quisque viverra eu leo
+                    sed rhoncus. Cras vitae felis vehicula, feugiat nisi mattis, rutrum lorem. Nam malesuada scelerisque quam
+                    sit amet dignissim. Donec venenatis sapien ut pretium ullamcorper. In hac habitasse platea dictumst.
+                    Ut eget ligula aliquet, porta risus sed, semper odio. Aenean turpis ex, rhoncus eu tempor pharetra, malesuada ac sem.
+                    Sed non mi sodales, bibendum arcu et, rutrum elit. Sed finibus nisl quis maximus vestibulum. Pellentesque condimentum
+                    vestibulum nunc, ultrices pretium velit varius a.
+                </section>
+            </article>
+        </div>
+    </div> <!--end section two-->
+
+    <div id="divSectionThree">
+        <!--begin section three-->
+        <table class="cb-center">
+            <thead>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="http://thumbs.dreamstime.com/x/apartment-complex-building-logo-23678511.jpg" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div> <!--end section three-->
+
+    <footer id="footer">
+        &copy;
+        Copyright 2015 by Coder Apartments, LLC
+    </footer>
+</body>
+</html>
